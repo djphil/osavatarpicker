@@ -16,10 +16,7 @@ if (isset($_POST['search']))
         $value = "%{$search_word}%";
         $query->bindValue(1, $value, PDO::PARAM_STR);        
         $query->execute();
-        
-        // if ($useSQLite == TRUE) $count = $query->fetchColumn();
-        // if ($useSQLite == TRUE) $row = $query->rowCount() >= 0;
-        // else $row = $query->rowCount() != 0;
+
         $row = $query->rowCount() != 0;
 
         echo "<h2>Search result(s):</h2>\n";
@@ -47,8 +44,6 @@ if (isset($_POST['search']))
         }
     }
     else echo '<p class="alert alert-danger alert-anim">Please enter a search query</p>';
-    // else $_SESSION[flash][danger] = "Please enter a search query";
-    // header('Location: ./);
 }
 else echo '<p class="alert alert-info">Please enter a search query</p>';
 
@@ -56,4 +51,3 @@ unset($folderName);
 $query = null;
 ?>
 </section>
-    

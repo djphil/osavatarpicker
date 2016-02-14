@@ -1,7 +1,8 @@
 <section>
+
 <article>
-<h1><?php echo $osavatarpicker; ?><span class="pull-right">Help</span></h1>
-Coming soon ...
+    <h1><?php echo $osavatarpicker; ?><span class="pull-right">Help</span></h1>
+    Coming soon ...
 </article>
 
 <article>
@@ -33,6 +34,10 @@ Coming soon ...
     [LoginService]
     ; For V3 avatar picker (( work in progress ))
     AvatarPicker = "${Const|BaseURL}/osavatarpicker/inc/avatars_picker.php"
+    </pre>
+    <h3>config.php</h3>
+    <pre>
+    configure all variables inside osavatarpicker/inc/config.php
     </pre>
 </article>
 

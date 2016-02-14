@@ -3,14 +3,14 @@ header('Content-Type: text/html; charset=utf-8');
 
 $dbhost = "localhost";
 $dbuser = "root";
-$dbpass = "xxx";
-$dbname = "xxx";
+$dbpass = "<DB PASS>";
+$dbname = "<DB NAME>";
 $tbname = "inventoryfolders";
 
-$osavatarpicker = "OpenSim Avatar Picker";
-$title  = "Avatar";
-$MasterAvatarUUID = "xxx";
 // $MasterAvatarUUID = array("MasterAvatarUUID" => "xxx");
+$MasterAvatarUUID = "<MASTER AVATAR UUID>";
+$osavatarpicker = "OpenSim Avatar Picker";
+$title = "Avatar";
 
 /* Navbar Style */
 // navbar
