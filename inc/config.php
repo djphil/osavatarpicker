@@ -3,14 +3,14 @@ header('Content-Type: text/html; charset=utf-8');
 
 $dbhost = "localhost";
 $dbuser = "root";
-$dbpass = "000000";
-$dbname = "owigrid";
+$dbpass = "xxx";
+$dbname = "xxx";
 $tbname = "inventoryfolders";
 
 $osavatarpicker = "OpenSim Avatar Picker";
 $title  = "Avatar";
-$MasterAvatarUUID = "e4d35179-dc7c-4962-9167-6707b2a20949";
-// $MasterAvatarUUID = array("MasterAvatarUUID" => "e4d35179-dc7c-4962-9167-6707b2a20949");
+$MasterAvatarUUID = "xxx";
+// $MasterAvatarUUID = array("MasterAvatarUUID" => "xxx");
 
 /* Navbar Style */
 // navbar
