@@ -1,20 +1,21 @@
+<?php include_once("../inc/config.php"); ?>
+<?php include_once("../inc/PDO-mysql.php"); ?>
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="../css/osavatarpicker.css">
-  <title>AvatarPicker</title>
+  <title><?php echo $osavatarpicker; ?></title>
 </head>
 
 <body>
-<h1><a href="./avatars_picker.php">Avatar Picker</a><span>List<span></h1>
+<h1><a href="./avatars_picker.php"><?php echo $osavatarpicker; ?></a><span>List<span></h1>
+
 <hr class="up">
 <hr class="down">
+
 <div id='avislist_container'>
-
-<?php include_once("../inc/config.php"); ?>
-<?php include_once("../inc/PDO-mysql.php"); ?>
-
 <?php
 $query = $db->prepare("
     SELECT *
@@ -22,10 +23,10 @@ $query = $db->prepare("
     WHERE agentID = '".$MasterAvatarUUID."'
     AND folderName = 'wear_folder' 
 ");
-        
+
 $query->execute();
 $counter = $query->rowCount();
-    
+
 if ($counter == 0)
 {
     echo '<p class="alert red">0 destination found ...</p>';
@@ -43,10 +44,10 @@ while ($row = $query->fetch(PDO::FETCH_ASSOC))
         FROM inventoryfolders
         WHERE parentFolderID = '".$folderID."'
     ");
-            
+
     $query->execute();
     $counter = $query->rowCount();
-        
+
     if ($counter == 0)
     {
         echo '<p class="alert red">0 destination found ...</p>';
@@ -78,12 +79,15 @@ while ($row = $query->fetch(PDO::FETCH_ASSOC))
         echo '</div>';
         echo '</div>';
     }
+
     unset($folderName);
     unset($folderID);
     unset($parentFolderID);
 }
+
 $query = null;
 ?>
+
 </div>
 </body>
 </html>
