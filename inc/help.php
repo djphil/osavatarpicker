@@ -12,7 +12,7 @@
     Avatar Search<br />
     <h3>Inword:</h3>
     Avatar Picker<br />
-    <a class="btn btn-default btn-success btn-xs" href="inc/avatars_picker.php" target="_blank">
+    <a class="btn btn-default btn-success btn-xs" href="inc/avatars-picker.php" target="_blank">
     <i class="glyphicon glyphicon-eye-open"></i> Demo</a>
 </article>
 
@@ -33,7 +33,7 @@
     <pre>
     [LoginService]
     ; For V3 avatar picker (( work in progress ))
-    AvatarPicker = "${Const|BaseURL}/osavatarpicker/inc/avatars_picker.php"
+    AvatarPicker = "${Const|BaseURL}/osavatarpicker/inc/avatars-picker.php"
     </pre>
     <h3>config.php</h3>
     <pre>
