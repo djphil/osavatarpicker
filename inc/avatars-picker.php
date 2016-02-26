@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<h1><a href="./avatars_picker.php"><?php echo $osavatarpicker; ?></a><span>List<span></h1>
+<h1><a href="./avatars-picker.php"><?php echo $osavatarpicker; ?></a><span>List<span></h1>
 
 <hr class="up">
 <hr class="down">
@@ -23,13 +23,13 @@ $query = $db->prepare("
     WHERE agentID = '".$MasterAvatarUUID."'
     AND folderName = 'wear_folder' 
 ");
-
+        
 $query->execute();
 $counter = $query->rowCount();
-
+    
 if ($counter == 0)
 {
-    echo '<p class="alert red">0 destination found ...</p>';
+    echo '<p class="alert red">0 wear_folder folder found ...</p>';
     exit;
 }
 
@@ -37,7 +37,6 @@ while ($row = $query->fetch(PDO::FETCH_ASSOC))
 {
     $folderName = $row['folderName'];
     $folderID = $row['folderID'];
-    $parentFolderID = $row['parentFolderID'];
 
     $query = $db->prepare("
         SELECT *
@@ -65,7 +64,7 @@ while ($row = $query->fetch(PDO::FETCH_ASSOC))
         echo '<div class="regionspics shadows radius">';
         echo '<div class="boxer radius">';
         echo '<hr class="up"><hr class="down">';
-        echo '<a href="secondlife:///app/wear_folder/?folder_id='.$parentFolderID.'" target="_self">';
+        echo '<a href="secondlife:///app/wear_folder/?folder_id='.$folderID.'" target="_self">';
         echo '<img class="" src="../img/'.$folderName.'.jpg" alt="'.$folderName.'" >';
         echo '<div class="regions">';
         echo '<hr class="up">';
@@ -84,7 +83,6 @@ while ($row = $query->fetch(PDO::FETCH_ASSOC))
     unset($folderID);
     unset($parentFolderID);
 }
-
 $query = null;
 ?>
 
