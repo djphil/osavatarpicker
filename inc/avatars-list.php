@@ -46,7 +46,7 @@ while ($row = $query->fetch(PDO::FETCH_ASSOC))
         $folderID       = $row['folderID'];
         $parentFolderID = $row['parentFolderID'];
 
-        echo '<div class="col-md-3">';
+        echo '<div class="col-xs-12 col-sm-4 col-md-3">';
         echo '<div class="text-left rounded border boxer">';
         echo '<a href="secondlife:///app/wear_folder/?folder_id='.$parentFolderID.'" target="_self" style="text-decoration: none;">';
         echo '<img class="img-thumbnail" src="img/'.$folderName.'.jpg" alt="'.$folderName.'" >';
