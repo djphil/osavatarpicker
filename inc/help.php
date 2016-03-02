@@ -29,6 +29,7 @@
 
 <article>
     <h2>Install</h2>
+    <?php echo $osavatarpicker; ?> have a "special" page for viewers (inc/avatars-picker.php)<br />
     <h3>Robust.ini</h3>
     <pre>
     [LoginService]
