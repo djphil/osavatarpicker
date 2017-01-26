@@ -9,12 +9,6 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 ?>
 
-<div class="github-fork-ribbon-wrapper left">
-    <div class="github-fork-ribbon">
-        <a href="https://github.com/djphil/osavatarpicker" target="_blank">Fork me on GitHub</a>
-    </div>
-</div>
-
 <?php
 if (isset($_GET['home'])) $page = 1;
 else if (isset($_GET['help'])) $page = 2;

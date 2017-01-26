@@ -3,7 +3,8 @@
             <p class="text-muted">&copy; 2015 - <?php $date = date('Y'); echo $date; ?> COLLAB 3D ASBL - All rights reserved</p>
         </div>
     </footer>
-    <!-- </div> /.starter-template -->
+
+    </div><!-- /.row -->
     </div><!-- /.container -->
 
     <!-- Bootstrap core JavaScript

@@ -40,4 +40,9 @@
 
 <body>
     <div class="container">
-    <!-- <div class="starter-template"> -->
+        <div class="github-fork-ribbon-wrapper left">
+            <div class="github-fork-ribbon">
+                <a href="https://github.com/djphil/osavatarpicker" target="_blank">Fork me on GitHub</a>
+            </div>
+        </div>
+        <div class="row">
