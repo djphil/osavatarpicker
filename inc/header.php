@@ -20,6 +20,9 @@
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <?php if ($useTheme === TRUE): ?>
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <?php endif ?>
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link href="css/starter-template.css" rel="stylesheet">
     <link href="css/gh-fork-ribbon.min.css" rel="stylesheet">

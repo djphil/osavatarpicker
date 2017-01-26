@@ -12,6 +12,7 @@ $MasterAvatarUUID = "<MASTER AVATAR UUID>";
 $osavatarpicker = "OpenSim Avatar Picker";
 $title = "Avatar";
 
+$useTheme = TRUE;
 /* Navbar Style */
 // navbar
 // navbar-btn
