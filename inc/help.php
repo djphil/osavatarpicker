@@ -54,7 +54,8 @@
     <h3>Outworld:</h3>
     <ol>
         <li>Go to "img" folder and put inside all images for yours avatars<br />
-        (The images names must match the names of the avatars folders).
+            The images names must match the names of the avatars folders.<br />
+            The recommended size for the image of the avatar is 750px x 750px 72dpi.
         </li>
     </ol>
 </article>
