@@ -24,7 +24,7 @@
         <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <?php endif ?>
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
-    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/osavatarpicker.css" rel="stylesheet">
     <link href="css/gh-fork-ribbon.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->

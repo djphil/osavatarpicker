@@ -34,12 +34,9 @@
     <pre>
     [LoginService]
     ; For V3 avatar picker (( work in progress ))
-    AvatarPicker = "${Const|BaseURL}/osavatarpicker/inc/avatars-picker.php"
-    </pre>
+    AvatarPicker = "${Const|BaseURL}/osavatarpicker/inc/avatars-picker.php"</pre>
     <h3>config.php</h3>
-    <pre>
-    configure all variables inside osavatarpicker/inc/config.php
-    </pre>
+    <pre>configure all variables inside osavatarpicker/inc/config.php</pre>
 </article>
 
 <article id="AddRegion">
@@ -74,7 +71,7 @@
 
 <article>
     <h2>Donation</h2>
-    <?php include_once("inc/paypal.php"); ?>
+    <p><?php include_once("inc/paypal.php"); ?></p>
 </article>
 
 </section>

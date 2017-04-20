@@ -17,11 +17,9 @@ if (isset($_POST['search']))
         $query->bindValue(1, $value, PDO::PARAM_STR);        
         $query->execute();
 
-        $row = $query->rowCount() != 0;
-
         echo "<h2>Search result(s):</h2>\n";
 
-        if ($row)
+        if ($query->rowCount() <> 0)
         {
             $counter = 0;
 
@@ -43,8 +41,10 @@ if (isset($_POST['search']))
             echo 'Nothing found';
         }
     }
+
     else echo '<p class="alert alert-danger alert-anim">Please enter a search query</p>';
 }
+
 else echo '<p class="alert alert-info">Please enter a search query</p>';
 
 unset($folderName);
