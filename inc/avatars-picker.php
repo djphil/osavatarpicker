@@ -5,9 +5,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="../css/osavatarpicker-inworld.css">
-  <title><?php echo $osavatarpicker; ?></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/osavatarpicker-inworld.css">
+    <title><?php echo $osavatarpicker; ?></title>
 </head>
 
 <body>

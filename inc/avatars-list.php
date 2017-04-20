@@ -24,7 +24,7 @@ if ($query->rowCount() <> 0)
         ");
         $query->execute();
 
-        if ($query->rowCount() == 0)
+        if ($query->rowCount() <> 0)
         {
             $i = 0;
 
