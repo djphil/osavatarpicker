@@ -35,7 +35,7 @@ if ($query->rowCount() <> 0)
                 $parentFolderID = $row['parentFolderID'];
 
                 echo '<div class="col-xs-12 col-sm-4 col-md-3">';
-                echo '<div class="panel panel-default">';
+                echo '<div class="panel panel-default shadows">';
                 echo '<div class="panel-heading"><span class="badge">'.++$i.'</span> '.$folderName.'</div>';
                 echo '<div class="panel-body">';
                 echo '<img class="img-thumbnail img-responsive" src="'.getImageByName("img/", $folderName, 1).'" alt="'.$folderName.'" >';

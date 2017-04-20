@@ -6,6 +6,7 @@ html {
 }
 
 body {padding-top: 50px; margin-bottom: 60px;}
+div.shadows:hover {box-shadow: 0px 0px 10px #CCCCCC;}
 
 .container .text-muted {
     margin: 20px 0;
