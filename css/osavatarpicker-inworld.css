@@ -27,18 +27,17 @@ h1 a:hover {color: #FFFFFF;}
 
 h1 {
     font-size: 1.2em;
-	margin: 5px;
-	margin-left: 10px;
-	
+    margin: 5px;
+    margin-left: 10px;
 }
 
 h1 span {float: right;}
 
 img {
     width:100px;
-	height:100px;
-	border: none;
-	vertical-align: middle;
+    height:100px;
+    border: none;
+    vertical-align: middle;
 }
 
 hr {
@@ -74,11 +73,11 @@ hr {
 }
 
 .regionspics:hover, #avatarspics:hover {
-	background:#698379;
-	background:-webkit-gradient(linear, left top, left bottom, from(#698379), to(#40524b));
-	background:-moz-linear-gradient(top, #698379, #40524b);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#698379', endColorstr='#40524b');
-	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#698379', endColorstr='#40524b');
+    background:#698379;
+    background:-webkit-gradient(linear, left top, left bottom, from(#698379), to(#40524b));
+    background:-moz-linear-gradient(top, #698379, #40524b);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#698379', endColorstr='#40524b');
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#698379', endColorstr='#40524b');
 }
 
 .small {font-size: 0.7em;}
@@ -90,24 +89,24 @@ hr {
 
 .boxer {
     padding: 5px;
-	/*
+    /*
     border-top: 1px solid rgba(255, 255, 255, 0.2);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    */
 }
 
 .shadows {
     -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
-	-o-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
-	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
-	filter:progid:DXImageTransform.Microsoft.Shadow(color=rgba(0, 0, 0, 0.5), Direction=NaN, Strength=3);
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=rgba(0, 0, 0, 0.5), Direction=NaN, Strength=3);
 }
 
 .radius {
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
 }
 
 /* Scrollbar Style SL */
