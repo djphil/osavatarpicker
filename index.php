@@ -16,7 +16,7 @@ else if (isset($_GET['search'])) $page = 3;
 else {$page = 1;} 
 
 echo '<div class="content">';
-if ($page == 1) require("inc/avatars_list.php");
+if ($page == 1) require("inc/avatars-list.php");
 else if ($page == 2) require("inc/help.php");
 else if ($page == 3) require("inc/search.php");
 else require("inc/404.php");
