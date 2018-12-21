@@ -1,5 +1,6 @@
 <?php include_once("inc/config.php"); ?>
 <?php include_once("inc/PDO-mysql.php"); ?>
+<?php include_once("inc/functions.php"); ?>
 <?php include_once("inc/header.php"); ?>
 <?php include_once("inc/navbar.php"); ?>
 
